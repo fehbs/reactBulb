@@ -51,11 +51,7 @@ function App() {
       <header className='App-header'>
         <img className="App-logo" src={logo} alt='log' width='12%' />
       </header>
-
-      <div className='bulbImg'>
-        <p>{bulb}</p>
-      </div>
-
+      <p>{bulb}</p>
       <div className='buttons'>
         <button onClick={handleOn}><BsLightbulb size={22} />ON</button>
         <button onClick={handleOff}><BsLightbulbOffFill size={22} />OFF</button>
